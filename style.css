@@ -514,20 +514,13 @@ p {
   letter-spacing: 0.2rem;
   text-align: center;
 }
-#services .section-title span {
+.section-title span {
   color: crimson;
 }
 #services .service-top {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 0 auto;
 }
-/*#services .service-top p {
-  font-size: 1.4rem;
-  margin-top: 5px;
-  line-height: 2.5rem;
-  font-weight: 300px;
-  letter-spacing: 0.05rem;
-}*/
 #services .service-bottom {
   display: flex;
   align-items: center;
@@ -567,12 +560,14 @@ p {
   margin-bottom: 20px;
 }
 #services .service-item h2 {
+  /*title of those 4 cartes 'web design'*/
   font-size: 2rem;
   color: white;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 #services .service-item p {
+  /*parag ...*/
   color: white;
   text-align: left;
 }
